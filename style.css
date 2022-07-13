@@ -1,0 +1,308 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.menu-container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color:white;
+}
+.company-logo h1{
+    
+    font-size: 53px;
+    font-weight: bold;
+    font-style: italic;
+    /* overflow: hidden; */
+    margin: 0 auto;
+    white-space: nowrap;
+    /* letter-spacing: 0.4rem; */
+    /* asb jani na bt new */
+    animation: demo-typewriter 3s steps(30,end), demo-cursor 1s step-end infinite;    
+    /* asb to pari na */
+}
+.menu-items{
+    display: flex;
+}
+
+.menu-items li{
+    list-style: none;
+    /* ata new list item no style */
+    margin: 5px;
+    /* ata pasa pasi faka kore day */
+    padding: 10px;
+    font-size: 18px;
+}
+
+.menu-items li:hover{
+    color:gray;
+    cursor: pointer;
+}
+
+.banner-container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color:white;
+    align-items: center;
+}
+
+.banner-description{
+    margin-left: 50px;
+}
+
+.banner-text{
+    color:red;
+    font-size:24px;
+}
+
+.text{
+    font-size: 25px;
+    margin: 10px;
+}
+
+.title1{
+    font-size: 60px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.banner-btn{
+    padding: 15px 30px;
+    background-color: red;
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+}
+.title2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 150px;
+}
+/* /////////////////atai sei part/////////////// */
+
+.section-two{
+    margin-top: 10px; 
+    padding: 20px;
+    /* dileo hoy na dileo same */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card1{
+    width: 350px;
+    height: 250px;
+    border: 1px solid gray;
+    box-shadow: 8px 8px 16px gray;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    transition: .8ms;
+}
+/* aito ai khane hover use korche*/
+.card1:hover{
+    border: 1px solid red;
+    margin-top: -20px;
+    /* ata dear jonne box opor a uthr jassilo */
+    transition: .6s;
+}
+
+.gym-icon{
+    width: 50px;
+}
+
+.about-container{
+    background-color: black;
+    color: white;
+}
+.about{
+    display: flex;
+    /*justify-content: space-evenly;
+    align-items: center;*/
+    margin: 0 auto; 
+    justify-content:space-evenly;
+}
+
+
+.about-right{
+    width: 500px;
+    border-top: 1px solid gray;
+}
+
+.about-left{
+    width:500px;
+    border-top: 1px solid red;
+}
+
+.about-description{
+    width: 50%;
+    float:right;
+    margin-left: 10px;
+}
+
+.workout-image{
+    display: flex;
+    margin-top: 50px;
+}
+.workout-image img{
+    width: 350px;
+    height: 550px;
+    transform: skewX(-15deg);
+    
+}
+
+.workout-container{
+    width: 550px;
+    height: 250px;
+    background-image: url(images/shape/Group_33094_1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    
+}
+
+.service-container{
+    margin-top: 50px;
+}
+
+.service-card1{
+    width: 350px;
+    margin: 20px;
+    border: 10px;
+    box-shadow: 8px 8px 16px gray;
+    border-radius: 10px;
+    padding: 0;
+}
+
+.service-img img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.badge-img{
+    width: 50px;
+    position: absolute;
+    top: -30px;
+    left: 320px;
+}
+
+.badge{
+    position: relative;
+}
+
+.services{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top:50px;
+}
+
+.service-description{
+    padding: 15px;
+    line-height:1.5;
+}
+
+.service-footer{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.service-footer p{
+    color: red;
+}
+
+.service-description h4{
+    color: red;
+    font-size: 18px;
+}
+.service-description h2{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.price{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.footer-container{
+    padding: 100px;
+    line-height: 1.7;
+}
+
+footer{
+    float: left;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.footer{
+    text-align: center;
+}
+
+.footer h5{
+    margin-top:50px;
+    word-spacing: 25px;
+    font-size: 14px;
+    color: #8a8d
+}
+
+.footer h5 a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.footer h5 a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.footer p{
+    font-size:16px;
+    color: black;
+}
+
+.footer p a {
+    text-decoration: none;
+    color: red;
+}
+.footer p a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+
+
+@keyframes demo-typewriter {
+    from{
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+    
+}
+@keyframes demo-cursor {
+    from,
+    to{
+        border-color: transparent;
+    }
+    50%{
+        border-color: #FF8D8D;
+    }
+}
